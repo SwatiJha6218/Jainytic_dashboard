@@ -26,5 +26,5 @@ app.use('/bc', createProxyMiddleware({
 
 app.listen(3001, '0.0.0.0', () => {
   console.log('✅ Proxy + static server running!');
-  console.log('📊 Open dashboard at: http://localhost:5500');
+  console.log('📊 Open dashboard at: http://localhost:3001');
 });
